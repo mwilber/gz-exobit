@@ -1,0 +1,26 @@
+{
+  "name": "gz-exobit",
+  "version": "1.0.0",
+  "description": "Interactive Web Component for ExoBits NFT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwilber/gz-exobit.git"
+  },
+  "keywords": [
+    "webcomponent",
+    "nft",
+    "javascript",
+    "pixelart",
+    "canvas"
+  ],
+  "author": "Matthew Wilber",
+  "license": "gpl-3.0",
+  "bugs": {
+    "url": "https://github.com/mwilber/gz-exobit/issues"
+  },
+  "homepage": "https://github.com/mwilber/gz-exobit#readme"
+}
