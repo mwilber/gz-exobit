@@ -14,7 +14,7 @@ module.exports = merge(webpackConfig, {
             switch(chunkData.chunk.name){
                 case 'gz-exobit':
                 case 'art-generator':
-                    return `[name].js`;
+                    return `[name]-${version}.js`;
                 default: return '[name].[chunkhash:8].js';
             }
         }
