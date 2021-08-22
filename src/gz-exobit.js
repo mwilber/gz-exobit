@@ -1,4 +1,5 @@
 import ABI from './abi.js';
+import ArtGenerator from './art-generator.js';
 import Render from './gz-exobit-render.js';
 import RenderStats from './gz-exobit-render-stats.js';
 
