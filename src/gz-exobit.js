@@ -3,9 +3,9 @@ import ArtGenerator from './art-generator.js';
 import Render from './gz-exobit-render.js';
 import RenderStats from './gz-exobit-render-stats.js';
 
-window.customElements.define('gz-exobit', class extends HTMLElement {
+export class GzExobit extends HTMLElement {
 
-	constructor( ){
+	constructor(){
 		super();
 
 		this.contractAddress = "";
@@ -770,4 +770,6 @@ window.customElements.define('gz-exobit', class extends HTMLElement {
 		}
 	}
 
-});
+}
+
+customElements.define('gz-exobit', GzExobit);

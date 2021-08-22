@@ -1,6 +1,6 @@
 {
   "name": "gz-exobit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interactive Web Component for ExoBits NFT",
   "main": "index.js",
   "scripts": {

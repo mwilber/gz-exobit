@@ -1,1 +1,1 @@
-import './src/gz-exobit.js';
+export { GzExobit } from './src/gz-exobit.js';
