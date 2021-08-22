@@ -25,10 +25,11 @@ let Render = function(){
     // Wings
     this.ProbabilitySelect(
         30,
-        .25,
+        .35,
         31,
         [
             ()=>this.DrawBodyPart('batwing', 5, -18, null, true),
+            ()=>this.DrawBodyPart('flywing', 0, -15, this.GetTranslucentColor(this.colorPalette.bodSecondary), true),
             ()=>this.DrawBodyPart('butterflywing', 0, -10, this.colorPalette.bodSecondary, true)
         ]
     );
@@ -53,10 +54,10 @@ let Render = function(){
         .5,
         45,
         [
-            ()=>this.DrawBodyPart('hair', -18, -15, this.artGenerator.GetGreyColor(0)),
-            ()=>this.DrawBodyPart('hair', -18, -15, this.colorPalette.hair),
+            ()=>this.DrawBodyPart('hair', -20, -15, this.artGenerator.GetGreyColor(0)),
+            ()=>this.DrawBodyPart('hair', -20, -15, this.colorPalette.hair),
             ()=>this.DrawBodyPart('horns', -13, -10, this.colorPalette.hair),
-            ()=>this.DrawBodyPart('feathers', -17, -20, this.colorPalette.hair),
+            ()=>this.DrawBodyPart('feathers', -17, -22, this.colorPalette.hair),
         ]
     );
 
@@ -66,10 +67,15 @@ let Render = function(){
         1,
         27,
         [
-            ()=>this.DrawBodyPart('eyes', -8, 1, null),
             ()=>this.DrawBodyPart('sleepyeyes', -8, 1, this.colorPalette.bodPrimary),
+            ()=>this.DrawBodyPart('eyes', -8, 1, null),
+            ()=>this.DrawBodyPart('happyeyes', -10, -1, this.colorPalette.bodPrimary),
+            ()=>this.DrawBodyPart('eyes2', -8, 1, null),
             ()=>this.DrawBodyPart('angryeyes', -11, 1, null),
-            ()=>this.DrawBodyPart('zetaeyes', -11, 3, null)
+            ()=>this.DrawBodyPart('eyes3', -8, 1, null),
+            ()=>this.DrawBodyPart('zetaeyes', -11, 3, null),
+            ()=>this.DrawBodyPart('eyes4', -8, 1, null),
+            ()=>this.DrawBodyPart('crazyeyes', -8, 0, null),
         ]
     );
 
@@ -93,18 +99,20 @@ let Render = function(){
         [
             ()=>this.DrawBodyPart('flipper', 'y', '12|-0', this.colorPalette.bodPrimary, true),
             ()=>this.DrawBodyPart('armanthro', 'y-20', 17, this.colorPalette.bodPrimary, true),
-            ()=>this.DrawBodyPart('pincer', 'y', '10|-13', this.colorPalette.bodPrimary, true)
+            ()=>this.DrawBodyPart('pincer', 'y', '10|-13', this.colorPalette.bodPrimary, true),
+            ()=>this.DrawBodyPart('armleaf', 'y-18', 16, this.colorPalette.bodPrimary, true),
         ]
     );
 
     //Telekinesis
     this.ProbabilitySelect(
         32,
-        .1,
+        .15,
         33,
         [
-            ()=>this.DrawBodyPart('precog', -40, -35, this.colorPalette.tk),
-            ()=>this.DrawBodyPart('telekinesis', -42, -30, this.colorPalette.tk)
+            ()=>this.DrawBodyPart('telekinesis', -47, -35, this.colorPalette.tk),
+            ()=>this.DrawBodyPart('telepathy', -42, -30, this.colorPalette.tk),
+            ()=>this.DrawBodyPart('magic', -60, -40, this.GetTranslucentColor(this.colorPalette.tk))
         ]
     );
 }

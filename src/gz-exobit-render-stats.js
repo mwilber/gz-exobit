@@ -34,6 +34,7 @@ let RenderStats = function(){
 	if(this.stats.attributes.includes('angryeyes')) disposition = 'Aggressive';
 	if(this.stats.attributes.includes('zetaeyes')) disposition = 'Enigmatic';
 	if(this.stats.attributes.includes('sleepyeyes')) disposition = 'Languid';
+	if(this.stats.attributes.includes('crazyeyes')) disposition = 'Erratic';
 
 	let wings = (this.stats.attributes.find(
 		(attribute)=>this.assets[attribute].label == 'Wings'
@@ -101,7 +102,7 @@ let RenderStats = function(){
 	let exoNum = (this.metaData.number) ? 'ExoBit #'+this.metaData.number : '';
 
 	let ownerControls = `
-		<p>Settings are available only to the owner of this Exobit. Mint this token to gain access.</p>
+		<p>Settings are available only to the owner of this ExoBit. Head over to exobits.greenzeta.com and mint your own.</p>
 	`;
 	if(this.ownerMode)
 		ownerControls = `
