@@ -81,9 +81,9 @@ let Render = function(){
 
     //Legs
     this.ProbabilitySelect(
-        24,
+        22,
         .75,
-        25,
+        23,
         [
             ()=>this.DrawBodyPart('leganthro', 'y', 28, this.colorPalette.bodPrimary, true),
             ()=>this.DrawBodyPart('tentacle', 'y-7', '29|-20', this.colorPalette.bodPrimary, true),
