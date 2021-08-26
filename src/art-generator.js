@@ -3,7 +3,7 @@ export default class ArtGenerator {
 	constructor( opts ){
 		this.ctx = opts.ctx;
 		this.slowmo = false;
-		this.slowmoDelay = opts.slowmoDelay;
+		this.slowmoDelay = opts.slowmoDelay || 0;
 		this.renderCallback = opts.renderCallback;
 		this.instructions = [];
 	}
