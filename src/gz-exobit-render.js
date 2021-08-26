@@ -67,13 +67,13 @@ let Render = function(){
         1,
         27,
         [
-            ()=>this.DrawBodyPart('sleepyeyes', -8, 1, this.colorPalette.bodPrimary),
             ()=>this.DrawBodyPart('eyes', -8, 1, null),
-            ()=>this.DrawBodyPart('happyeyes', -10, -1, this.colorPalette.bodPrimary),
+            ()=>this.DrawBodyPart('sleepyeyes', -8, 1, this.colorPalette.bodPrimary),
+            ()=>this.DrawBodyPart('happyeyes', -10, 3, this.colorPalette.bodPrimary),
             ()=>this.DrawBodyPart('eyes2', -8, 1, null),
-            ()=>this.DrawBodyPart('angryeyes', -11, 1, null),
-            ()=>this.DrawBodyPart('eyes3', -8, 1, null),
             ()=>this.DrawBodyPart('zetaeyes', -11, 3, null),
+            ()=>this.DrawBodyPart('eyes3', -8, 1, null),
+            ()=>this.DrawBodyPart('angryeyes', -11, 1, null),
             ()=>this.DrawBodyPart('eyes4', -8, 1, null),
             ()=>this.DrawBodyPart('crazyeyes', -8, 0, null),
         ]
