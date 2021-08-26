@@ -104,7 +104,7 @@ export class GzExobit extends HTMLElement {
 		if(key === 'demo'){
 			this.ownerMode = true;
 			this.metaData.name = "Demo";
-			this.key = "2A97596C954B68898CDBD8F5968D6A8A88FFFFD638E207AD6C5CBB9CA00099FF";
+			this.key = "8897696C267BE9546CDBD8F5968D6A8A88FFFFD638E207AD6C5CBB9CA00099FF";
 		}else if(uri){
 			let metadata = await this.fetchMetadataFromUri(uri);
 			if(metadata.key) this.key = this.metaData.key = metadata.key;
