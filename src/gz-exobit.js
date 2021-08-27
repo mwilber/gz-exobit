@@ -93,7 +93,7 @@ export class GzExobit extends HTMLElement {
 		// Create a web3 instance outside of the conponent and store
 		// it in window.web3instance
 		this.web3 = window.web3instance;
-		this.contractAddress = contract;
+		this.contractAddress = contract || "";
 		size = size || 512;
 		const scaleFactor = size / 512;
 
