@@ -3,7 +3,7 @@ ExoBits are unique procedurally generated characters created with a pseudo rando
 
 Visit [the ExoBits website](https://exobits.greenzeta.com/) for more information on ExoBits and mint your own NFT.
 
-![ExoBit Card Front](preview_front.png "ExoBit Card Front") ![ExoBit Card Back](preview_back.png "ExoBit Card Back")
+![ExoBit Card Front](https://exobits.greenzeta.com/www/images/preview_front.png "ExoBit Card Front") ![ExoBit Card Back](https://exobits.greenzeta.com/www/images/preview_back.png "ExoBit Card Back")
 
 # Using This Project
 ## Scripts
