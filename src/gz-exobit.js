@@ -93,7 +93,8 @@ export class GzExobit extends HTMLElement {
 		// Create a web3 instance outside of the conponent and store
 		// it in window.web3instance
 		this.web3 = window.web3instance;
-		this.contractAddress = contract || "";
+		// Contract can be overridden for development. The hard coded address is the production contract on ethereum main net.
+		this.contractAddress = contract || "0x5bbeC211972328487e8859740AADE132Ba7a1916";
 		size = size || 512;
 		const scaleFactor = size / 512;
 
